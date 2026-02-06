@@ -35,10 +35,10 @@ const About = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background-dark/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
-            <div className="absolute -bottom-6 -right-6 lg:-right-10 w-32 h-32 bg-background-light dark:bg-background-dark rounded-full border border-gray-200 dark:border-white/10 shadow-xl flex flex-col items-center justify-center z-20 animate-float-slow">
+            {/* <div className="absolute -bottom-6 -right-6 lg:-right-10 w-32 h-32 bg-background-light dark:bg-background-dark rounded-full border border-gray-200 dark:border-white/10 shadow-xl flex flex-col items-center justify-center z-20 animate-float-slow">
               <span className="text-4xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent-pink">6+</span>
               <span className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">Months Exp.</span>
-            </div>
+            </div> */}
           </motion.div>
 
           <motion.div 
