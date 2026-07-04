@@ -1,12 +1,43 @@
-import React from 'react';
-import { FaXTwitter } from 'react-icons/fa6';
+import React from "react";
+import { FaXTwitter } from "react-icons/fa6";
 
 const SocialSidebar = () => {
   const socialLinks = [
+<<<<<<< HEAD
     { href: 'https://www.linkedin.com/in/armanhossainatunu', icon: 'fab fa-linkedin-in', hoverColor: 'hover:bg-[#0077b5]', title: 'LinkedIn', isReactIcon: false },
     { href: 'https://github.com/armanhossainatunu', icon: 'fab fa-github', hoverColor: 'hover:bg-[#333]', title: 'Github', isReactIcon: false },
     { href: 'https://www.instagram.com/armanhossainatunu', icon: 'fab fa-instagram', hoverColor: 'hover:bg-[#E1306C]', title: 'Instagram', isReactIcon: false },
     { href: 'https://x.com/arman_atunu', icon: FaXTwitter, hoverColor: 'hover:bg-black', title: 'X (Twitter)', isReactIcon: true },
+=======
+    {
+      href: "https://www.linkedin.com/in/armanhossainatunu",
+      icon: "fab fa-linkedin-in",
+      hoverColor: "hover:bg-[#0077b5]",
+      title: "LinkedIn",
+      isReactIcon: false,
+    },
+    {
+      href: "https://github.com/armanhossainatunu",
+      icon: "fab fa-github",
+      hoverColor: "hover:bg-[#333]",
+      title: "Github",
+      isReactIcon: false,
+    },
+    {
+      href: "https://www.instagram.com/armanhossainatunu",
+      icon: "fab fa-instagram",
+      hoverColor: "hover:bg-[#E1306C]",
+      title: "Instagram",
+      isReactIcon: false,
+    },
+    {
+      href: "https://x.com/arman_atunu",
+      icon: FaXTwitter,
+      hoverColor: "hover:bg-black",
+      title: "X (Twitter)",
+      isReactIcon: true,
+    },
+>>>>>>> c91341c (fix: update portfolio and remove env/build from tracking)
   ];
 
   return (
@@ -17,8 +48,8 @@ const SocialSidebar = () => {
           className={`w-10 h-10 rounded-full flex items-center justify-center text-gray-500 dark:text-gray-400 hover:text-white ${link.hoverColor} transition-all duration-300`}
           href={link.href}
           title={link.title}
-          target={link.href.startsWith('http') ? '_blank' : '_self'}
-          rel={link.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+          target={link.href.startsWith("http") ? "_blank" : "_self"}
+          rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
         >
           {link.isReactIcon ? (
             <link.icon className="text-lg" />

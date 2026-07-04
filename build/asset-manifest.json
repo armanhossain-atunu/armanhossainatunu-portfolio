@@ -1,6 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b1b1d0b1.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.dc3ce1e0.js",
     "index.html": "/index.html",
     "main.b1b1d0b1.css.map": "/static/css/main.b1b1d0b1.css.map",
@@ -9,5 +10,15 @@
   "entrypoints": [
     "static/css/main.b1b1d0b1.css",
     "static/js/main.dc3ce1e0.js"
+=======
+    "main.js": "/static/js/main.1425bae2.js",
+    "index.html": "/index.html",
+    "main.b1b1d0b1.css.map": "/static/css/main.b1b1d0b1.css.map",
+    "main.1425bae2.js.map": "/static/js/main.1425bae2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1b1d0b1.css",
+    "static/js/main.1425bae2.js"
+>>>>>>> c91341c (fix: update portfolio and remove env/build from tracking)
   ]
 }

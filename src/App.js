@@ -14,6 +14,7 @@ import SocialSidebar from './components/SocialSidebar';
 import WelcomeLoader from './components/WelcomeLoader';
 // import TechBanner from './components/TechBanner';
 import BackgroundElements from './components/BackgroundElements';
+import Experience from './components/Experience';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -31,8 +32,9 @@ function App() {
         <Navbar />
         <Hero />
         <About />
-        <Education />
+        <Experience/>
         <Skills />
+        <Education />
         <Projects />
         <Contact />
         <Footer />
